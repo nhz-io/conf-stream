@@ -1,0 +1,8 @@
+.editorconfig
+.gitignore
+.npmignore
+.nycrc
+.tern-project
+*.log
+coverage
+.nyc_output

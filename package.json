@@ -1,0 +1,48 @@
+{
+  "name": "@nhz.io/conf-streams",
+  "version": "1.0.0",
+  "description": "Configure and compose streams from JSON config and plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava --verbose",
+    "coverage": "xo && nyc --reporter=lcov ava",
+    "prepublish": "xo && ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhz-io/gulpconf.git"
+  },
+  "keywords": [
+    "gulpconf",
+    "nhz.io"
+  ],
+  "author": "Ishi Ruy <dev@nhz.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhz-io/gulpconf/issues"
+  },
+  "homepage": "https://github.com/nhz-io/gulpconf",
+  "dependencies": {
+    "duplexer2": "^0.1.4",
+    "merge2": "^1.0.2",
+    "through2": "^2.0.1",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "nyc": "^8.3.0",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "rules": {
+      "comma-dangle": [
+        1,
+        "always-multiline"
+      ],
+      "no-unused-vars": [
+        1
+      ]
+    }
+  }
+}
