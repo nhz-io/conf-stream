@@ -1,6 +1,6 @@
 {
   "name": "@nhz.io/conf-streams",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Configure and compose streams from JSON config and plugins",
   "main": "index.js",
   "scripts": {
